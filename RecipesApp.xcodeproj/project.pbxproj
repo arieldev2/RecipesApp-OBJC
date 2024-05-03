@@ -7,28 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BCAA3CC2BE48D370025F734 /* RecipeDetailHeaderUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA3CB2BE48D370025F734 /* RecipeDetailHeaderUIView.m */; };
+		5BCAA3CF2BE48EB60025F734 /* RecipeDetailHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA3CE2BE48EB60025F734 /* RecipeDetailHeaderViewModel.m */; };
+		5BCAA3D22BE4B8930025F734 /* RecipeIngredientsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA3D12BE4B8930025F734 /* RecipeIngredientsTableViewCell.m */; };
+		5BCAA3D52BE4B8A60025F734 /* RecipeInstructionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA3D42BE4B8A60025F734 /* RecipeInstructionsTableViewCell.m */; };
+		5BCAA3D82BE4C8DE0025F734 /* RecipeSectionsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA3D72BE4C8DE0025F734 /* RecipeSectionsViewModel.m */; };
 		5BF01A562BE2FEE700D0B245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A552BE2FEE700D0B245 /* AppDelegate.m */; };
 		5BF01A592BE2FEE700D0B245 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A582BE2FEE700D0B245 /* SceneDelegate.m */; };
-		5BF01A5C2BE2FEE700D0B245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A5B2BE2FEE700D0B245 /* ViewController.m */; };
-		5BF01A5F2BE2FEE700D0B245 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5BF01A5E2BE2FEE700D0B245 /* Base */; };
+		5BF01A5C2BE2FEE700D0B245 /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A5B2BE2FEE700D0B245 /* RecipesViewController.m */; };
 		5BF01A612BE2FEEA00D0B245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF01A602BE2FEEA00D0B245 /* Assets.xcassets */; };
 		5BF01A642BE2FEEA00D0B245 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5BF01A632BE2FEEA00D0B245 /* Base */; };
 		5BF01A672BE2FEEA00D0B245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A662BE2FEEA00D0B245 /* main.m */; };
+		5BF01A702BE301CB00D0B245 /* RecipeUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A6F2BE301CB00D0B245 /* RecipeUITableViewCell.m */; };
+		5BF01A762BE3069700D0B245 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A752BE3069700D0B245 /* Recipe.m */; };
+		5BF01A792BE3085200D0B245 /* RecipeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A782BE3085200D0B245 /* RecipeService.m */; };
+		5BF01A802BE30C3600D0B245 /* ConstantsEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A7F2BE30C3600D0B245 /* ConstantsEndpoints.m */; };
+		5BF01A832BE315E200D0B245 /* RecipeListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A822BE315E200D0B245 /* RecipeListViewModel.m */; };
+		5BF01A862BE322BD00D0B245 /* RecipeCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A852BE322BD00D0B245 /* RecipeCellViewModel.m */; };
+		5BF01A892BE33E0600D0B245 /* RecipeDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A882BE33E0600D0B245 /* RecipeDetailViewModel.m */; };
+		5BF01A8D2BE357B800D0B245 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A8C2BE357B800D0B245 /* RecipeDetailViewController.m */; };
+		5BF01A912BE35A6300D0B245 /* ImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF01A902BE35A6300D0B245 /* ImageCacheManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BCAA3CA2BE48D370025F734 /* RecipeDetailHeaderUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeDetailHeaderUIView.h; sourceTree = "<group>"; };
+		5BCAA3CB2BE48D370025F734 /* RecipeDetailHeaderUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailHeaderUIView.m; sourceTree = "<group>"; };
+		5BCAA3CD2BE48EB60025F734 /* RecipeDetailHeaderViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeDetailHeaderViewModel.h; sourceTree = "<group>"; };
+		5BCAA3CE2BE48EB60025F734 /* RecipeDetailHeaderViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailHeaderViewModel.m; sourceTree = "<group>"; };
+		5BCAA3D02BE4B8930025F734 /* RecipeIngredientsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeIngredientsTableViewCell.h; sourceTree = "<group>"; };
+		5BCAA3D12BE4B8930025F734 /* RecipeIngredientsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeIngredientsTableViewCell.m; sourceTree = "<group>"; };
+		5BCAA3D32BE4B8A60025F734 /* RecipeInstructionsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeInstructionsTableViewCell.h; sourceTree = "<group>"; };
+		5BCAA3D42BE4B8A60025F734 /* RecipeInstructionsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeInstructionsTableViewCell.m; sourceTree = "<group>"; };
+		5BCAA3D62BE4C8DE0025F734 /* RecipeSectionsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeSectionsViewModel.h; sourceTree = "<group>"; };
+		5BCAA3D72BE4C8DE0025F734 /* RecipeSectionsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeSectionsViewModel.m; sourceTree = "<group>"; };
 		5BF01A512BE2FEE700D0B245 /* RecipesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF01A542BE2FEE700D0B245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BF01A552BE2FEE700D0B245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5BF01A572BE2FEE700D0B245 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		5BF01A582BE2FEE700D0B245 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		5BF01A5A2BE2FEE700D0B245 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5BF01A5B2BE2FEE700D0B245 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5BF01A5E2BE2FEE700D0B245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BF01A5A2BE2FEE700D0B245 /* RecipesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipesViewController.h; sourceTree = "<group>"; };
+		5BF01A5B2BE2FEE700D0B245 /* RecipesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipesViewController.m; sourceTree = "<group>"; };
 		5BF01A602BE2FEEA00D0B245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF01A632BE2FEEA00D0B245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BF01A652BE2FEEA00D0B245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BF01A662BE2FEEA00D0B245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BF01A6E2BE301CB00D0B245 /* RecipeUITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeUITableViewCell.h; sourceTree = "<group>"; };
+		5BF01A6F2BE301CB00D0B245 /* RecipeUITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeUITableViewCell.m; sourceTree = "<group>"; };
+		5BF01A742BE3069700D0B245 /* Recipe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		5BF01A752BE3069700D0B245 /* Recipe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		5BF01A772BE3085200D0B245 /* RecipeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeService.h; sourceTree = "<group>"; };
+		5BF01A782BE3085200D0B245 /* RecipeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeService.m; sourceTree = "<group>"; };
+		5BF01A7A2BE30A3E00D0B245 /* RecipeServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeServiceProtocol.h; sourceTree = "<group>"; };
+		5BF01A7E2BE30C3600D0B245 /* ConstantsEndpoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantsEndpoints.h; sourceTree = "<group>"; };
+		5BF01A7F2BE30C3600D0B245 /* ConstantsEndpoints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstantsEndpoints.m; sourceTree = "<group>"; };
+		5BF01A812BE315E200D0B245 /* RecipeListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeListViewModel.h; sourceTree = "<group>"; };
+		5BF01A822BE315E200D0B245 /* RecipeListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeListViewModel.m; sourceTree = "<group>"; };
+		5BF01A842BE322BD00D0B245 /* RecipeCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeCellViewModel.h; sourceTree = "<group>"; };
+		5BF01A852BE322BD00D0B245 /* RecipeCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeCellViewModel.m; sourceTree = "<group>"; };
+		5BF01A872BE33E0600D0B245 /* RecipeDetailViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewModel.h; sourceTree = "<group>"; };
+		5BF01A882BE33E0600D0B245 /* RecipeDetailViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewModel.m; sourceTree = "<group>"; };
+		5BF01A8B2BE357B800D0B245 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		5BF01A8C2BE357B800D0B245 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		5BF01A8F2BE35A6300D0B245 /* ImageCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCacheManager.h; sourceTree = "<group>"; };
+		5BF01A902BE35A6300D0B245 /* ImageCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCacheManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +102,103 @@
 		5BF01A532BE2FEE700D0B245 /* RecipesApp */ = {
 			isa = PBXGroup;
 			children = (
+				5BF01A8E2BE35A3400D0B245 /* ImageManager */,
+				5BF01A8A2BE3575500D0B245 /* Controllers */,
+				5BF01A7D2BE30C0B00D0B245 /* Constants */,
+				5BF01A732BE305F600D0B245 /* ViewModel */,
+				5BF01A722BE305F100D0B245 /* Model */,
+				5BF01A712BE305E400D0B245 /* Service */,
+				5BF01A6D2BE3016600D0B245 /* View */,
 				5BF01A542BE2FEE700D0B245 /* AppDelegate.h */,
 				5BF01A552BE2FEE700D0B245 /* AppDelegate.m */,
 				5BF01A572BE2FEE700D0B245 /* SceneDelegate.h */,
 				5BF01A582BE2FEE700D0B245 /* SceneDelegate.m */,
-				5BF01A5A2BE2FEE700D0B245 /* ViewController.h */,
-				5BF01A5B2BE2FEE700D0B245 /* ViewController.m */,
-				5BF01A5D2BE2FEE700D0B245 /* Main.storyboard */,
 				5BF01A602BE2FEEA00D0B245 /* Assets.xcassets */,
 				5BF01A622BE2FEEA00D0B245 /* LaunchScreen.storyboard */,
 				5BF01A652BE2FEEA00D0B245 /* Info.plist */,
 				5BF01A662BE2FEEA00D0B245 /* main.m */,
 			);
 			path = RecipesApp;
+			sourceTree = "<group>";
+		};
+		5BF01A6D2BE3016600D0B245 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BF01A6E2BE301CB00D0B245 /* RecipeUITableViewCell.h */,
+				5BF01A6F2BE301CB00D0B245 /* RecipeUITableViewCell.m */,
+				5BCAA3CA2BE48D370025F734 /* RecipeDetailHeaderUIView.h */,
+				5BCAA3CB2BE48D370025F734 /* RecipeDetailHeaderUIView.m */,
+				5BCAA3D02BE4B8930025F734 /* RecipeIngredientsTableViewCell.h */,
+				5BCAA3D12BE4B8930025F734 /* RecipeIngredientsTableViewCell.m */,
+				5BCAA3D32BE4B8A60025F734 /* RecipeInstructionsTableViewCell.h */,
+				5BCAA3D42BE4B8A60025F734 /* RecipeInstructionsTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BF01A712BE305E400D0B245 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5BF01A772BE3085200D0B245 /* RecipeService.h */,
+				5BF01A782BE3085200D0B245 /* RecipeService.m */,
+				5BF01A7A2BE30A3E00D0B245 /* RecipeServiceProtocol.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5BF01A722BE305F100D0B245 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BF01A742BE3069700D0B245 /* Recipe.h */,
+				5BF01A752BE3069700D0B245 /* Recipe.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BF01A732BE305F600D0B245 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BF01A812BE315E200D0B245 /* RecipeListViewModel.h */,
+				5BF01A822BE315E200D0B245 /* RecipeListViewModel.m */,
+				5BF01A842BE322BD00D0B245 /* RecipeCellViewModel.h */,
+				5BF01A852BE322BD00D0B245 /* RecipeCellViewModel.m */,
+				5BF01A872BE33E0600D0B245 /* RecipeDetailViewModel.h */,
+				5BF01A882BE33E0600D0B245 /* RecipeDetailViewModel.m */,
+				5BCAA3CD2BE48EB60025F734 /* RecipeDetailHeaderViewModel.h */,
+				5BCAA3CE2BE48EB60025F734 /* RecipeDetailHeaderViewModel.m */,
+				5BCAA3D62BE4C8DE0025F734 /* RecipeSectionsViewModel.h */,
+				5BCAA3D72BE4C8DE0025F734 /* RecipeSectionsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BF01A7D2BE30C0B00D0B245 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5BF01A7E2BE30C3600D0B245 /* ConstantsEndpoints.h */,
+				5BF01A7F2BE30C3600D0B245 /* ConstantsEndpoints.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5BF01A8A2BE3575500D0B245 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BF01A5A2BE2FEE700D0B245 /* RecipesViewController.h */,
+				5BF01A5B2BE2FEE700D0B245 /* RecipesViewController.m */,
+				5BF01A8B2BE357B800D0B245 /* RecipeDetailViewController.h */,
+				5BF01A8C2BE357B800D0B245 /* RecipeDetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5BF01A8E2BE35A3400D0B245 /* ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				5BF01A8F2BE35A6300D0B245 /* ImageCacheManager.h */,
+				5BF01A902BE35A6300D0B245 /* ImageCacheManager.m */,
+			);
+			path = ImageManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +260,6 @@
 			files = (
 				5BF01A612BE2FEEA00D0B245 /* Assets.xcassets in Resources */,
 				5BF01A642BE2FEEA00D0B245 /* Base in Resources */,
-				5BF01A5F2BE2FEE700D0B245 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +270,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF01A5C2BE2FEE700D0B245 /* ViewController.m in Sources */,
+				5BCAA3D52BE4B8A60025F734 /* RecipeInstructionsTableViewCell.m in Sources */,
+				5BF01A802BE30C3600D0B245 /* ConstantsEndpoints.m in Sources */,
+				5BF01A8D2BE357B800D0B245 /* RecipeDetailViewController.m in Sources */,
+				5BF01A5C2BE2FEE700D0B245 /* RecipesViewController.m in Sources */,
+				5BF01A912BE35A6300D0B245 /* ImageCacheManager.m in Sources */,
+				5BCAA3D22BE4B8930025F734 /* RecipeIngredientsTableViewCell.m in Sources */,
+				5BF01A862BE322BD00D0B245 /* RecipeCellViewModel.m in Sources */,
+				5BCAA3CF2BE48EB60025F734 /* RecipeDetailHeaderViewModel.m in Sources */,
+				5BF01A832BE315E200D0B245 /* RecipeListViewModel.m in Sources */,
+				5BF01A892BE33E0600D0B245 /* RecipeDetailViewModel.m in Sources */,
+				5BF01A762BE3069700D0B245 /* Recipe.m in Sources */,
+				5BCAA3CC2BE48D370025F734 /* RecipeDetailHeaderUIView.m in Sources */,
 				5BF01A562BE2FEE700D0B245 /* AppDelegate.m in Sources */,
+				5BF01A702BE301CB00D0B245 /* RecipeUITableViewCell.m in Sources */,
+				5BCAA3D82BE4C8DE0025F734 /* RecipeSectionsViewModel.m in Sources */,
+				5BF01A792BE3085200D0B245 /* RecipeService.m in Sources */,
 				5BF01A672BE2FEEA00D0B245 /* main.m in Sources */,
 				5BF01A592BE2FEE700D0B245 /* SceneDelegate.m in Sources */,
 			);
@@ -156,14 +294,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BF01A5D2BE2FEE700D0B245 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BF01A5E2BE2FEE700D0B245 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BF01A622BE2FEEA00D0B245 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -303,9 +433,8 @@
 				INFOPLIST_FILE = RecipesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,8 +442,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = c.RecipesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +463,8 @@
 				INFOPLIST_FILE = RecipesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,8 +472,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = c.RecipesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
